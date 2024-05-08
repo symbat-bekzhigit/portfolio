@@ -1,0 +1,662 @@
+<!-- Templates used for this project are from:
+    https://codepen.io/celincky/pen/abPjZb 
+    https://codepen.io/ghaste/pen/YzBJWgL?editors=0110
+-->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Symbat Bekzhigit</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#about">Experience</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="https://github.com/symbat-bekzhigit" target="_blank">GitHub</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="https://www.linkedin.com/in/symbat-bekzhigit-1181871b4/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="mailto:sb7971@nyu.edu" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hello, I'm Symbat</div>
+                <div class="intro-heading">a developer with multidisciplinary interests</div>
+                <a href="#services" class="page-scroll btn btn-xl">I want to learn more</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted">I am a third-year student at New York University Abu Dhabi studying Computer Science and minoring in Applied Maths and Interactive Media. I love creating and I am passionate about exploring the intersection of art and technology. My areas of interest include:</h3>
+                    <!-- <h3 class="section-subheading text-muted">I love creating and I am passionate about exploring the intersection of art and technology. My areas of interest include:</h3> -->
+                    <!-- <h3 class="section-subheading text-muted">My areas of interest include: </h3> -->
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-paint-brush fa-stack-1x fa-inverse" style="color: black;"></i>
+                    </span>
+                    <h4 class="service-heading">Creative Coding</h4>
+                    <p class="text-muted">I am passionate about creative coding and all of its subdimensions.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse" style="color: black;"></i>
+                    </span>
+                    <h4 class="service-heading">Software Engineering</h4>
+                    <p class="text-muted">I enjoy creating aesthetic, functional, and user-friendly apps and websites.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-hand-pointer-o fa-stack-1x fa-inverse" style="color: black;"></i>
+                    </span>
+                    <h4 class="service-heading">Human-Computer Interaction</h4>
+                    <p class="text-muted">I love exploring the idea of human-computer interaction in my projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Selected Projects</h2>
+                    <h3 class="section-subheading text-muted">Below are selected projects representing my interdisciplinary interests</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <!-- <img src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" class="img-responsive" alt=""> -->
+                        <img src="./images/30mff_image.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>30MFF Website</h4>
+                        <p class="text-muted">Web Development</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/comic_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Saeed Was Here</h4>
+                        <p class="text-muted">Web Development, Comics</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/gts_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Guess The Sound</h4>
+                        <p class="text-muted">Web Development, Sound Recording</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/dd_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Double Delight</h4>
+                        <p class="text-muted">Web Development, Filming & Editing</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/handventure_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>VR HandVenture</h4>
+                        <p class="text-muted">Creative Coding, Interactive Computing</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/pong_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ghostly Pong</h4>
+                        <p class="text-muted">Game Development, Creative Coding</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/storycircle_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>The Story of a Circle</h4>
+                        <p class="text-muted">Creative Coding, Storytelling</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./images/same_image.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SAME: eLearning platform
+                        </h4>
+                        <p class="text-muted">UX Design, Prototype Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Jan 2023 - May 2023</h4>
+                                    <h4 class="subheading">Web Developer & President, HackAD</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Initiated 5+ networking events and tech programs across campus (HackAD Hackathon, LeetCode workshop, Intern-
+                                        ship Talks, CS Mixer) with 800+ participants. Redesigned the website and updated its functionalities using HTML5, CSS3, JavaScript and Bootstrap 5.
+                                        </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May 2023 - Aug 2023</h4>
+                                    <h4 class="subheading">Machine Learning Intern, MoMa Lab NYU</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Successfully approximated ReLU activations on custom Convolutional Neural Networks (CNNs) with low-degree poly-
+                                        nomials, reaching an average relative accuracy of 96%. Trained and evaluated 16+ custom and pre-built CNNs, including LeNet-5, ResNet-18, and VGG-16, using PyTorch. Conducted research on Polynomial Approximation of Machine Learning Models and consolidated research findings
+                                        into a comprehensive report.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Aug 2023</h4>
+                                    <h4 class="subheading">Coding Teacher, HLAB</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Taught 20+ high school students with no programming experience the basics of JavaScript and p5.js. Curated a syllabus and organized a seminar with live coding, team projects, and hands-on coding experience.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright © Symbat Bekzhigit 2024</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://github.com/symbat-bekzhigit" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="ttps://www.linkedin.com/in/symbat-bekzhigit-1181871b4/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="mailto:sb7971@nyu.edu"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>30MFF Website</h2>
+                            <p class="item-intro text-muted">HTML, CSS, JavaScript</p>
+                            <img class="img-responsive" src="./images/30mff_image.png" alt="">
+                            <p>This project is a website that lets the viewer embark on a digital voyage through the tranquil enclaves of NYUAD campus. Offering a serene escape from the usual campus commotion, it invites visitors to explore the quieter facets of university life through a captivating blend of videography and photography.
+                                This website serves as a digital diary of my experience at NYUAD, capturing moments of tranquility amidst the bustling energy of campus. Embracing a theme of introspection, each element - from the handwritten letter greeting visitors to the calming color palette - invites viewers to pause, reflect, and immerse themselves in the peaceful essence of our campus.
+                                The aim is simple: to transport visitors to a state of serene contemplation. By meticulously curating content and design, I endeavor to create an immersive experience that resonates deeply with viewers. Whether you're a current student seeking solace or a prospective visitor curious about campus life, this project offers and emphasizes the importance of tranquil escape from the chaos of everyday life.
+                                </p>
+                            <ul class="list-inline">
+                                <li>Date: Feb 2014</li>
+                                <li>Category: Web Development, Filming, Storytelling</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/NYUAD-website" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://symbat-bekzhigit.github.io/NYUAD-website/" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Saeed Was Here</h2>
+                            <p class="item-intro text-muted">HTML, CSS, JavaScript</p>
+                            <img class="img-responsive img-centered" src="./images/comic_image.png" alt="">
+                            <p>“Saeed Was Here” is the story about an Emirati boy ghost named Saeed who lives in the library at NYU Abu Dhabi. Saeed used to be a young boy from the UAE, but now he's a mischievous spirit who likes to scare students away from his favorite bookshelves. “Saeed Was Here” is a cheerful story with the spooky elements portrayed in the artistic and interactive elements of the comics, including sound, selection of the desired ending, and easy navigation when reading the comics. All of these elements create funny and spooky vibe, engaging the reader’s attention starting from the first page.
+                            </p>
+                            <p>This was a team project. Other contributors are Tomiris Suleimenova, Mariam Al Khoori, and Amal Almazrouei. </p>
+                            <ul class="list-inline">
+                                <li>Date: Mar 2024</li>
+                                <li>Category: Web Development, Comics, Storytelling</li>
+                            </ul>
+                            <a href="https://github.com/tomiesul/Assignment2_Comics_Group1/tree/main/comics" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://tomiesul.github.io/Assignment2_Comics_Group1/comics/index.html" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Guess The Sound</h2>
+                            <p class="item-intro text-muted">HTML, CSS, JavaScript</p>
+                            <img class="img-responsive img-centered" src="./images/gts_image.png" alt="">
+                            <p>The sound project was inspired by the social media trends of ASMR and Mukbangs to depict an engaging online experience akin to a TV game show. Typically ASMR represents trying to come up with different sounds to make the listener feel a ticklish feeling, while Mukbangs are generally eating on camera. The team wanted to combine the audio-entertaining components of both to create the “Late Night Guess the Sound” quiz. Through creative design and development, the website showcases an exciting sound guessing game having the players immerse themselves in a variety of audio challenges, where their keen ears are put to the test. Each round presents a diverse array of sounds and expects participants to decipher their origins. With each correct guess, players earn points. Structured into two distinct question types, the game offers variety and complexity. Type 1 questions consist of multiple-choice options, asking to guess the identity of a single sound. Meanwhile, Type 2 questions elevate the stakes, presenting similar sounds alongside a keyword, challenging players to discern the most fitting match. With only accurate answers contributing to their cumulative score, players are pushed to guess correctly to get the most points.
+                                </p>
+                            <p>This was a team project. Other contributors are Tomiris Suleimenova, Khadija Khalid, and Sara Alameri. </p>
+                            <ul class="list-inline">
+                                <li>Date: Apr 2014</li>
+                                <li>Category: Web Development, Sound recording & editing, Storytelling</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/guess-the-sound-game" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://symbat-bekzhigit.github.io/guess-the-sound-game/" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Double Delight</h2>
+                            <p class="item-intro text-muted">HTML, CSS, JavaScript, Adobe Premiere Pro, Adobe After Effects</p>
+                            <img class="img-responsive img-centered" src="./images/dd_image.png" alt="">
+                            <p>This project aims to establish an innovative video channel to engage audiences to learn how to cook effectively via interactive video tutorials. Following the example of the picturesque, low-fi, faceless cooking videos on YouTube and Instagram, we shot our videos to emphasise a peaceful visual style, which is characterised with soft light and body language as an expressive element. The website focuses on using one general cake mix and subsequently, through different video routes, it teaches users to make two separate recipes. Viewers are guided to pick their base recipe from pre-selected options, and are then invited to customise their creation by using the various decorative options that are displayed later on. The aim was to create an immersive and interactive experience so the videos not only teach but also entertain, offering relaxing visuals and stimulating audience participation during the process. 
+                            </p>
+                            <p>This was a team project. Other contributors are Khadija Khalid, Mariam Al Khoori, and Faizan Raza.</p>
+                            <ul class="list-inline">
+                                <li>Date: Apr 2014</li>
+                                <li>Category: Web Development, Filming & Editing, Storytelling</li>
+                            </ul>
+                            <a href="https://github.com/faizanraza09/Double-Delight" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://faizanraza09.github.io/Double-Delight/" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>VR HandVenture</h2>
+                            <p class="item-intro text-muted">C++, JavaScript on p5.js, Arduino, CSS, HTML</p>
+                            <img class="img-responsive img-centered" src="./images/handventure_image.png" alt="">
+                            <p>As the name of the project suggests, for my final project I created the “VR” gloves that allows the user to control the hand movement and explore different places of Kazakhstan through their panorama images. I have always been fascinated by the beauty of my country, and I want other people to see those beautiful places as well. The destination points that the user can explore include a variety of landscapes, starting from dense forests and mountain lakes, and ending with deserts and canyons.
+                            </p>
+                            <ul class="list-inline">
+                                <li>Date: May 2023</li>
+                                <li>Category: Creative Coding, Interactive Computing</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/VR-HandVenture" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://youtu.be/LoHQYJpVKYc" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Ghostly Pong</h2>
+                            <p class="item-intro text-muted">JavaScript on p5.js, CSS, HTML</p>
+                            <img class="img-responsive img-centered" src="./images/pong_image.png" alt="">
+                            <p>Ghostly Pong is a modification of Ping Pong game where, instead of playing with one disk, the players play with two, and the disks will keep periodically disappearing and reappearing during the game, just like a ghost.</p>
+                            <ul class="list-inline">
+                                <li>Date: Mar 2023</li>
+                                <li>Category: Game Development, Creative Coding</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/Ghostly-Pong" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://editor.p5js.org/symbatb/sketches/LKhQtZmjB" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>The Story of a Circle</h2>
+                            <p class="item-intro text-muted">C++ on OpenFrameworks, ofxBox2D addon</p>
+                            <img class="img-responsive img-centered" src="./images/storycircle_image.png" alt="">
+                            <p>In this interactive storytelling experience, I tell the story of adapting to a new environment (or overcoming a crisis) through the use of the features of the ofBox2D addon. The main protagonist of this story is a white circle and the story consists of 3 phases: React, Adapt, and Evolve.
+                            </p>
+                            <ul class="list-inline">
+                                <li>Date: Oct 2021</li>
+                                <li>Category: Creative Coding, Storytelling</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/projects/tree/main/assignment3" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Source Code
+                            </a>
+                            <a href="https://youtu.be/-3XAeNVEGM4" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>SAME: eLearning platform</h2>
+                            <p class="item-intro text-muted">Balsamiq</p>
+                            <img class="img-responsive img-centered" src="./images/same_image.png" alt="">
+                            <p>In this interactive storytelling experience, I tell the story of adapting to a new environment (or overcoming a crisis) through the use of the features of the ofBox2D addon. The main protagonist of this story is a white circle and the story consists of 3 phases: React, Adapt, and Evolve.
+                            </p>
+                            <ul class="list-inline">
+                                <li>Date: Dec 2023</li>
+                                <li>Category: UX Design, User Research, Prototype Development</li>
+                            </ul>
+                            <a href="https://github.com/symbat-bekzhigit/SAME-Complementary-eLearning-platform/blob/main/README.md" class="btn btn-primary" role="button">
+                                <i class="fa fa-times"></i> Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jqBootstrapValidation.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"></script>
+
+
+<span style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"></span></body>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
