@@ -20,8 +20,8 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 
-//look at fixes in the Pen https://codepen.io/ghaste/pen/OJqLbvg
-//for adding mouse trail to a page that scrolls beyond the viewport, as would be the case with most websites - lol
+//fixes in the Pen https://codepen.io/ghaste/pen/OJqLbvg
+//for adding mouse trail to a page that scrolls beyond the viewport
 let x1=0, y1=0;
 window.client
 const 

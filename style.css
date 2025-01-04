@@ -121,12 +121,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 15px 25px;
     border-color: #dfd4fe;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
     color: #fff;
     background-color: #B9A0FF;
@@ -180,6 +180,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
+    text-align: left; /* Ensure alignment */
+
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -210,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 350;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -233,9 +236,24 @@ fieldset[disabled] .btn-xl.active {
     background-color: #B9A0FF;
 }
 
+.navbar-default.navbar-shrink .navbar-brand {
+    margin-left: 0; /* Remove the negative margin */
+    white-space: nowrap; /* Prevent the text from breaking into multiple lines */
+    overflow: hidden; /* Avoid overflow outside the navbar */
+    text-overflow: ellipsis; /* Add ellipsis if the text is too long */
+    padding-left: 15px; /* Adjust this value as needed */
+}
+
+.container {
+    width: 100%; /* Make it span the full width of the window */
+    max-width: 100%; 
+    margin-right: 0;
+    margin-left: 0;
+}
+
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -244,26 +262,42 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        /* font-size: 10em; */
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        text-align: left; /* Ensure alignment */
+
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 10px;
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        /* header padding */
+        padding: 5px 0; 
         background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        margin-left: 0; /* Remove the negative margin */
+        white-space: nowrap; /* Prevent the text from breaking into multiple lines */
+        overflow: hidden; /* Avoid overflow outside the navbar */
+        text-overflow: ellipsis; /* Add ellipsis if the text is too long */
+        padding-left: 15px; /* Adjust this value as needed */
+    }
+
+    .container {
+        width: 100%; /* Make it span the full width of the window */
+        max-width: 100%; 
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
+/* the introduction part */
 header {
     text-align: center;
     color: black;
@@ -300,6 +334,8 @@ header .intro-text .intro-lead-in {
 
 }
 
+/* for the medium window size case */
+
 header .intro-text .intro-heading {
     /* margin-bottom: 25px;
     text-transform: uppercase;
@@ -310,11 +346,15 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: lowercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
     line-height: 50px;
     font-style: normal;
 }
+
+
+
+/* for the large window size case */
 
 @media(min-width:768px) {
     header .intro-text {
@@ -325,17 +365,17 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 45px;
+        font-size: 50px;
         font-style: italic;
         /* font-style: normal; */
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 45px;
         text-transform: lowercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
+        font-size: 1.5em;
         font-weight: 700;
         line-height: 50px;
         font-style: normal;
