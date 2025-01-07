@@ -399,7 +399,8 @@ section {
 
 section h2.section-heading {
     margin-bottom: 50px;
-    font-size: 40px;
+    margin-top: 50px;
+    font-size: 32px;
 }
 
 section h3.section-subheading {
@@ -415,10 +416,30 @@ section h3.section-subheading {
 
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
+
+    section h2.section-heading {
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    section {
+        padding: 100px 0;
+    }
+
+    section h2.section-heading {
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
 }
 
 .service-heading {
