@@ -398,7 +398,7 @@ section {
 }
 
 section h2.section-heading {
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -426,10 +426,45 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+/* changes for new 3 blocks start here */
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    /* margin: 0 0 30px; */
+
 }
+    
+#portfolio .portfolio-caption {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Make entire portfolio block clickable */
+.portfolio-item-link {
+    display: block; 
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  /* Add hover effect for the entire block */
+  .portfolio-item-link:hover .portfolio-hover {
+    opacity: 1; 
+
+  }
+
+  .portfolio-item-link:hover {
+    transform: scale(1.05);
+    background: #B9A0FF;
+    border-radius: 8px;
+  }
+  
+
+/* for project modals */
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
@@ -482,12 +517,14 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
+    margin: 10px;
     text-transform: none;
+    font-size: 25px;
+
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-    margin: 0;
+    margin: 40px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
