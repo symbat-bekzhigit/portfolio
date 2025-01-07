@@ -592,6 +592,19 @@ section h3.section-subheading {
 }
 
 
+.portfolio-item .img-responsive{
+    width: 100%;
+    height: 250px; /* Set a consistent height */
+    object-fit: cover; /* Crop images to fit without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
+}
+
+.modal-body .img-responsive{
+    width: 100%;
+    height: 100%; /* Set a consistent height */
+    object-fit: cover; /* Crop images to fit without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
+}
 
 
 @media(min-width:767px) {
