@@ -409,11 +409,12 @@ section {
 
 section h2.section-heading {
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 32px;
     text-align: center; /* Ensure the text is always centered */
 
 }
+
 
 section h3.section-subheading {
     margin-top: 50px;
@@ -643,6 +644,14 @@ section h3.section-subheading {
     min-height: 50px;
 }
 
+#education .timeline>li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 45px;
+
+}
+
+
 .timeline>li:before,
 .timeline>li:after {
     content: " ";
@@ -660,6 +669,15 @@ section h3.section-subheading {
     padding: 0 20px 0 100px;
     text-align: left;
 }
+
+#education .timeline>li .timeline-panel {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
 
 .timeline>li .timeline-panel:before {
     right: auto;
@@ -685,6 +703,21 @@ section h3.section-subheading {
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
+    color: #fff;
+    background-color: #B9A0FF;
+}
+
+
+#education .timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    float: left;
     color: #fff;
     background-color: #B9A0FF;
 }
